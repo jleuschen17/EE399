@@ -136,6 +136,74 @@ Percentage of variance captured by SVD mode 6: 0.592431441503493%
 
 ## Computational Results
 
-### Problem I
+### Problem I: Calculating Correlation Matrices and Evaluating
+#### 100 x 100 Correlation Matrix
+![100corr](100colormap.png)
+#### Most Correlated Faces: 100 x 100 Matrix
+Score: 260.7753576749327
 
+![corrfaces](correlatedImages.png)
+#### Least Correlated Faces: 100 x 100 Matrix
+Score: 0.002161908881199547
 
+![nocorrfaces](leastcorrelated.png)
+
+#### 10 x 10 Correlation Matrix
+![10x10Matrix](10x10matrix.png)
+
+#### Most Correlated Faces: 10 x 10 Matrix
+Score: 180.7379530108612
+
+![mostcorr10](10mostcorrelated.png)
+
+#### Least Correlated Faces: 10 x 10 Matrix
+Score: 1.5453726931949268
+
+![leastcorr10](10leastcorrelated.png)
+
+### Problem II: Problem II: Support Vector Machines and Transpose Analysis
+
+#### Top 6 Eigenvalues
+
+| Number | Value         |
+|--------|--------       |
+| 1      | 234020.454854 |
+| 2      | 49038.315301       |
+| 3      | 8236.539897              |
+| 4      | 6024.871458                         |
+| 5      | 2051.496433                         |
+| 6      | 1901.079115                         |
+
+#### Difference of First Eigenvector and First SVD Mode
+~~~
+5.859925686842521e-16
+~~~
+#### Percentage Variance Values
+| Number | Value         |
+|--------|--------       |
+| 1      | 72.92756746909564% |
+| 2      | 15.281762655694356%       |
+| 3      | 2.5667449429852685%              |
+| 4      | 1.8775248514714775%                         |
+| 5      | 0.6393058444446524%                         |
+| 6      | 0.592431441503493%                         |
+
+#### Plot of First 6 SVD Modes
+
+![svdplot](6Modes.png)
+
+## Summary and Conclusion
+
+Summary and Conclusions:
+
+### Problem 1:
+
+In this problem, I performed analysis on the Yale face dataset consisting of 100 grayscale images. I investigated the correlations between the 100 images by calculating the dot product of each pair of images. By sorting the dot products, I identified the most highly correlated and least correlated images. The results showed images 86 and 88 to be the most highly correlated, whereas images 64 and 54 were the least correlated. I then analyzed 10 specific target images from the dataset, and again calculated correlation between them. The most highly correlated faces in this subset were images 87 and 314, while least correlated were images 512 and 313.
+
+### Problem 2:
+
+In this problem, I analyzed the eigenvalues and eigenvectors of the covariance matrix Y calculated from the face dataset. I then compared the eigenvectors with the principal components obtained from Singular Value Decomposition (SVD). By calculating the norm difference, I confirmed the eigenvectors and principal components to be very close. I also calculated the explained variance ratios of the first 6 principal components using the singular values, to determine how much of the variance is captured by these modes. Finally, I visualized the first 6 principal components as images, which represent the most significant facial features found in the dataset.
+
+### Conclusion
+
+Overall, I observed that the correlation analysis is effective in finding similar and dissimilar images in the Yale face dataset. The eigenvalue and principal component decomposition techniques provided useful information on significant features present in the image data, which could be applied to various applications such as dimensionality reduction and facial recognition.
