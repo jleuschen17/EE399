@@ -134,6 +134,8 @@ Percentage of variance captured by SVD mode 6: 0.592431441503493%
 
 ![6modes](6Modes.png)
 
-### Computational Results
+## Computational Results
+
+### Problem I
 
 
