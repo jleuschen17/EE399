@@ -61,7 +61,7 @@ topFaces = sorted(correlations.items(), key=lambda x:x[1], reverse=True)
 The dictionary entries which correspond to two of the same index are ignored as they are showing correlation across the same image
 
 ![correlatedimages](correlatedImages.png)
- 
+
 A similar procedure is applied to find the least correlated images
 
 ![leastcorrelated](leastcorrelated.png)
@@ -139,6 +139,7 @@ Percentage of variance captured by SVD mode 6: 0.592431441503493%
 ### Problem I: Calculating Correlation Matrices and Evaluating
 #### 100 x 100 Correlation Matrix
 ![100corr](100colormap.png)
+
 #### Most Correlated Faces: 100 x 100 Matrix
 Score: 260.7753576749327
 
