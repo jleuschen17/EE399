@@ -72,7 +72,7 @@ plt.ylabel("Singular Value")
 plt.show()
 ```
 
-![SVC](SVC.png)
+![SVC](../SVC.png)
 
 Calculating the rank `r` of the digit space with 95% of energy
 
@@ -97,7 +97,7 @@ plt.axhline(0.95, c='g')
 plt.tight_layout()
 ```
 
-![cumsum](cumsumgraph.png)
+![cumsum](../cumsumgraph.png)
 
 
 ### Problem II: Interpretation of U, Σ, and V matrices and PCA visualization
@@ -128,7 +128,7 @@ plt.show()
 plt.tight_layout(pad=2)
 ```
 
-![3dimage](3dPlot.png)
+![3dimage](../3dPlot.png)
 
 
 ### Problem III: Linear Classifier for Two Digits
@@ -303,16 +303,16 @@ The classifiers output the following accuracy scores
 
 #### Singular Value Spectrum
 
-![singvalue](SVC.png)
+![singvalue](../SVC.png)
 
 
 #### Cumulative Energy Graph
 
-![cumsum](cumsumgraph.png)
+![cumsum](../cumsumgraph.png)
 
 #### 3D V-Modes Graph
 
-![3d](3dPlot.png)
+![3d](../3dPlot.png)
 
 #### SVM vs LDA vs Decision Tree Table
 
