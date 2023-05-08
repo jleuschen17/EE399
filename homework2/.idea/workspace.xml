@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fda49010-a8a9-4580-909d-9b4e4e4baa67" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../homework1/.idea/homework1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../homework4/data/MNIST/raw/t10k-images-idx3-ubyte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../homework4/data/MNIST/raw/t10k-images-idx3-ubyte.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../homework4/data/MNIST/raw/t10k-labels-idx1-ubyte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../homework4/data/MNIST/raw/t10k-labels-idx1-ubyte.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../homework4/data/MNIST/raw/train-images-idx3-ubyte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../homework4/data/MNIST/raw/train-images-idx3-ubyte.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../homework4/data/MNIST/raw/train-labels-idx1-ubyte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../homework4/data/MNIST/raw/train-labels-idx1-ubyte.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../homework1/homework1.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../homework1/homework1.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework4/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../homework3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../homework3/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../homework4/homework4.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../homework4/homework4.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,7 +29,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/jleus/PycharmProjects/EE399/homework3",
+    "last_opened_file_path": "C:/Users/jleus/PycharmProjects/EE399/homework1",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "MTConfigurable"
   }
@@ -51,6 +43,7 @@
       <option name="presentableId" value="Default" />
       <updated>1683530907687</updated>
       <workItem from="1683530909273" duration="22000" />
+      <workItem from="1683532625789" duration="5204000" />
     </task>
     <servers />
   </component>
