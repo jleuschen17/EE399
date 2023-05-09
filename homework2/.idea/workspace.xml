@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fda49010-a8a9-4580-909d-9b4e4e4baa67" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../homework4/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../idft.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../homework3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../homework3/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../homework4/homework4.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../homework4/homework4.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +42,7 @@
       <option name="presentableId" value="Default" />
       <updated>1683530907687</updated>
       <workItem from="1683530909273" duration="22000" />
-      <workItem from="1683532625789" duration="5204000" />
+      <workItem from="1683532625789" duration="5317000" />
     </task>
     <servers />
   </component>
