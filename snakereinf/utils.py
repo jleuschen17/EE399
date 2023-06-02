@@ -56,13 +56,12 @@ def perform_mc(env, num_episodes, epsilon, gamma, rewards):
                 G = sum([episode_rewards[j]*gamma**(j-i) for j in range(i, len(episode_rewards))])
                 state_action_count[state][action] += 1
                 q_table[state][action] += (G - q_table[state][action]) / state_action_count[state][action]
-        epsilon -= 0.000005
-        # print(i)
+        epsilon -= 0.0000035
         ii-=1
         if (ii % 5000) == 0:
             print(epsilon)
-        if epsilon < 0.01:
-            epsilon = 0.01
+        if epsilon < 0.1:
+            epsilon = 0.1
 
     return q_table
 
