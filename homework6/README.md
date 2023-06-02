@@ -1,3 +1,5 @@
+# Investigating the Performance of LSTM/Decoder Models for Sea-Surface Temperature Reconstruction
+
 ## Abstract
 This Python code explores the performance of an LSTM/decoder model for sea-surface temperature reconstruction using the "pyshred" framework. The analysis involves varying the time lag variable, adding Gaussian noise to the data, and altering the number of sensors used for training. These modifications aim to understand the impact of these factors on the model's performance in terms of mean squared error between reconstructed and ground truth data. The LSTM/decoder model is created using PyTorch, and the data is processed with MinMaxScaler before being fed into SHRED. The input sequences are generated for each combination of time lag, noise level, and number of sensors for the model to train, validate, and reconstruct test datasets. The results of this study provide insights into the application of LSTM/decoder models in reconstructing sea-surface temperature data, which can be useful for understanding climate change, weather patterns, and ocean dynamics.
 
